@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<h1>Costs</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Costs é uma aplicação desenvolvida em React com uma API fake através de JSON SERVER, que permite gerenciar os custos de um projeto.
 
-## Available Scripts
+![Imagem do Costs](src/img/screenshot.png)
 
-In the project directory, you can run:
+<h2>Funcionalidades</h2>
 
-### `npm start`
+- Adicionar novos projetos com orçamentos, nome e categorias customizados
+- Visualizar os projetos, apagá-los e editá-los
+- Notificações personalizadas
+- Adição e remoção de serviços para cada projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Como Executar o Projeto</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Antes de tudo certifique-se de ter o [Node.JS](https://nodejs.org/en) mais atualizado instalado.
 
-### `npm test`
+1. Clone o repositório:
+```bash
+git clone https://github.com/DFedizko/costs.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Inicie o backend:
+```bash
+npm run backend
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Inicie a aplicação React:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2>Tecnologias Utilizadas</h2>
+<div>
+  <img src="https://img.shields.io/badge/css-239120?&style=for-the-badge&logo=css&logoColor=white">
+  <img src="https://img.shields.io/badge/javascript-239120?&style=for-the-badge&logo=javascript&logoColor=white">
+  <img src="https://img.shields.io/badge/react-239120?&style=for-the-badge&logo=react&logoColor=white">
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>Sobre</h2>
 
-### `npm run eject`
+O Costs é uma aplicação web com fins didáticos feito para aprender e praticar o desenvolvimento em React com uma API local fornecida pelo json server para simular uma API real, criado para ajudar os usuários a gerenciarem seus projetos, lidando com custos e despesas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Crétidos ao Matheus Battisti do canal do youtube [Hora de Codar](https://www.youtube.com/@MatheusBattisti), foi esse o professor que me orientou durante esse projeto.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Desenvolvedor</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/74017914?v=4" width=115><br><sub>Pedro Fedizko de Castro</sub>](https://github.com/DFedizko) |
+| :---: |
