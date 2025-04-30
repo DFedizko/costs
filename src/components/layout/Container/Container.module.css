@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    margin: 0 8rem;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+

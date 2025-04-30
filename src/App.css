@@ -1,0 +1,22 @@
+html, body, #root {
+    background-color: #efefef;
+    min-height: 100vh;
+    font-size: 62.5%;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+  
+h2 {
+    font-size: 2rem;
+}
+  
+p, li, a {
+    font-size: 1.6rem;
+}

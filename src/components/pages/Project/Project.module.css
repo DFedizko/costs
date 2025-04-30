@@ -1,0 +1,64 @@
+.loading {
+    align-self: center;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem;
+    width: 100%;
+}
+
+.projectContainer h1,
+.projectContainer h2,
+.projectContainer p {
+    margin-bottom: .8rem;
+}
+
+.projectContainer h1 {
+    background-color: #222;
+    color: #FFBB33;
+    padding: .6rem;
+}
+
+.projectContainer button {
+    width: fit-content;
+}
+
+.projectContainer span {
+    font-weight: bold;
+}
+
+.detailsContainer,
+.serviceFormContainer {
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.8rem;
+    padding-bottom: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn {
+    background-color: #222;
+    color: #FFF;
+    padding: .8rem 1.6rem;
+    transition: .25s;
+    cursor: pointer;
+    max-height: 4rem;
+    border: none;
+}
+
+.btn:hover {
+    color: #ffbb33;
+}
+
+.projectInfo {
+    width: 100%;
+}
+
+.serviceContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
